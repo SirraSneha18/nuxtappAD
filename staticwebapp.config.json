@@ -1,0 +1,17 @@
+{
+    "routes": [
+      {
+        "route": "/",
+        "allowedRoles": ["reader"]
+      },
+      {
+        "route": "/login",
+        "rewrite": "/.auth/login/aad"
+      },
+      {
+        "route": "/logout",
+        "rewrite": "/.auth/logout"
+      }
+    ]
+  }
+  
